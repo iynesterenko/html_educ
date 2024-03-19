@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Мій HTML-документ</title>
+    <style>
+        /* Стилі для заголовків */
+        h1 {
+            color: blue;
+            font-family: Arial, sans-serif;
+            text-decoration: underline;
+        }
+        h2 {
+            color: green;
+            font-family: 'Times New Roman', serif;
+        }
+
+        /* Стилі для абзаців */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+        }
+
+        /* Стилі для списків */
+        ul {
+            list-style-type: square;
+        }
+        ol {
+            list-style-type: decimal;
+        }
+
+        /* Стилі для роздільників */
+        hr {
+            border: 1px solid black;
+        }
+
+        /* Стилі для інформації про автора */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-Hello world
+    <h1>Заголовок першого рівня</h1>
+    
+    <p>Це перший абзац тексту з <span class="italic">курсивом</span> та <span class="bold">жирним</span> шрифтом.</p>
+    
+    <h2>Заголовок другого рівня</h2>
+    
+    <p>Це другий абзац тексту. В ньому може бути <a href="#">посилання</a>.</p>
+    
+    <ul>
+        <li>Перший пункт списку</li>
+        <li>Другий пункт списку</li>
+        <li>Третій пункт списку</li>
+    </ul>
+    
+    <hr>
+    
+    <h3>Заголовок третього рівня</h3>
+    
+    <p>Це третій абзац тексту.</p>
+    
+    <ol>
+        <li>Перший нумерований пункт списку</li>
+        <li>Другий нумерований пункт списку</li>
+        <li>Третій нумерований пункт списку</li>
+    </ol>
+
+    <footer>
+        Автор: Ім'я Автора<br>
+        © 2024. Усі права захищені.
+    </footer>
 </body>
 </html>
+
